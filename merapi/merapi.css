@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    background-image: url('../merapi/batik.jpg');
+}
+
+.gunung-merapi{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('../merapi/gununggg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.fakta{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('../merapi/gunung2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.paid{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('../merapi/lava-tour.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.judul{
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    border: 5px solid #6f1d1b;
+    border-radius: 30px;
+    font-size: 3em;
+    color: #ffe8d6; 
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+}
+.judul:hover{
+    background-color: #d0c5c8;
+    color: #6f1d1b;
+    cursor: pointer;
+}
+
+article{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
+.isii{
+    background-color: rgba(220, 221, 225,0.8);
+    width: 1200px;
+    height: 200px;
+    margin:auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-top: 30px;
+    border-radius: 30px;
+}
+.isii:hover{
+    background-color: #e7d7c1;
+    cursor: pointer;
+}
+
+.isii2{
+    background-color: rgba(220, 221, 225,0.8);
+    width: 900px;
+    height: 200px;
+    margin:auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 100px;
+    font-size: 20px;
+    padding-top: 100px;
+    border-radius: 30px;
+}
+.isii2:hover{
+    background-color: #e7d7c1;
+    cursor: pointer;
+}
+
+.isii3{
+    background-color: rgba(220, 221, 225,0.8);
+    width: 900px;
+    height: 200px;
+    margin:auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 100px;
+    font-size: 20px;
+    padding-top: 50px;
+    border-radius: 30px;
+}
+
+#tombol{
+    border-radius: 20px;
+    height: 50px;
+    width: 99px;
+    background-color: #fff8dbe0;
+    color:#65010c;
+    border: 3px #975433 solid;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    
+}
+#tombol:hover{
+    background-color: #ede0d4;
+}
