@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+    background-image: url('../candi/batik.jpeg');
+
+}
+
+.candiborobudur{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('../candi/candi1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.fungsi{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('../candi/candi_2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.fakta{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('../candi/candi3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.paid{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('../candi/candi4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.judul{
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    border: 5px solid #d0c5c8;
+    border-radius: 30px;
+    font-size: 3em;
+    color: #d0c5c8; 
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.judul:hover{
+    background-color: #d0c5c8;
+    color: #491d29;
+    cursor: pointer;
+}
+
+article{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.dalem1{
+    background-color: rgba(220, 221, 225,0.8);
+    width: 1000px;
+    height: 170px;
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: background-color 0.5s, color 0.5s;
+    
+}
+.dalem1:hover{
+    background-color: #a89a9e;
+    cursor: pointer;
+}
+
+#dalem2{
+    background-color: rgba(220, 221, 225,0.8);
+    width: 1200px;
+    height: 200px;
+    margin:auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-top: 30px;
+    border-radius: 30px;
+}
+
+#dalem2:hover{
+    background-color: #a89a9e;
+    cursor: pointer;
+}
+
+.dalem3{
+    background-color: rgba(220, 221, 225,0.8); 
+    margin:auto;
+    width: 1000px;
+    height: 170px;
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+.dalem3:hover{
+    background-color: #a89a9e;
+    cursor: pointer;
+    color: #632537;
+    font-weight: bold;
+}
+
+.ul{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+
+.yi:hover, .yis:hover{
+    color:#b84a67;
+}
+
+.ling{
+    text-decoration: none; color: black;
+}
+
+/*pop up code*/
+
+.overlay{
+    position: fixed;
+    top:0; bottom:0; left:0; right:0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target{
+    visibility:visible;
+    opacity: 1;
+}
+
+.popup{
+    position: relative;
+    border-radius: 20px;
+    background-color: #ebdbdf;
+    padding: 20px;
+    margin:auto;
+    margin-left: 90px;
+    margin-right: 100px;
+    
+}
+
+.tutup{
+    float: right;
+    text-decoration: none;
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+}
+.tutup:hover{
+    color:#b84a67;
+}
+
+/*end code*/
+
+#tombol{
+    border-radius: 20px;
+    height: 50px;
+    width: 99px;
+    background-color: #fff8dbe0;
+    color:#3a4442;
+    border: 3px #975433 solid;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    
+}
+#tombol:hover{
+    background-color: #a0e0d8e0;
+}
+
+
