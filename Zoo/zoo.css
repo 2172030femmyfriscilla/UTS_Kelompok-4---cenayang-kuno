@@ -1,0 +1,122 @@
+.body{
+    text-align: center;
+}
+.judul{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Lucida Bright',sans-serif;
+}
+.Nav0{
+    background-color: grey;
+    background-size: cover;
+    height: 50px;
+}
+.Text1{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding-top: 12px;
+    font-family: 'Mochiy Pop P One',sans-serif;
+}
+.Text2{
+    float: right;
+    margin-left:20px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-top: 12px;
+    font-family: 'Mochiy Pop P One',sans-serif;
+}
+#ref{
+    color: white;
+    text-decoration: none;
+}
+#ref:hover{
+    color:#445055 ;
+}
+.Nav2{
+    background-size: cover;
+    background-image: url(Harimau.jpg);
+    height: 750px;
+    background-position: 50 px; 
+}
+.judul{
+    padding-top: 100px;
+    color: white;
+}
+.jam{
+    background-color: grey;
+    background-position: cover;
+    height: 50px;
+    text-align: center;
+    padding-top: 23px;
+    color: white;
+    font-family: 'Mochiy Pop P One',sans-serif;
+    font-size: 20px;
+}
+.daftar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image:url(ticket.jpg) ;
+    margin: 0px 0px 590px 580px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One',sans-serif;
+}
+#ticket{
+    text-align: center;
+}
+.Nav4{
+    background-color: #445055;
+    height: 200px;
+    background-size: cover;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.Nav5{
+    background-color: #445055;
+    background-size: cover;
+    height: 700px;
+}
+#info{
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Mochiy Pop P One',sans-serif; 
+    padding-top: 20px;
+    padding-left: 40px;
+}
+#info2{
+    padding-top: 20px;
+    padding-left: 40px;
+    color: white;
+    font-family: 'Mochiy Pop P One',sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+#table{
+    color: white;
+    padding-top: 20px;
+    font-family: 'Mochiy Pop P One',sans-serif;
+    margin-left: 430px;
+    margin-top: 60px;
+    width: 400px;
+    border-color: white;
+    background-color: grey;
+}
+#tombol{
+    border-radius: 20px;
+    height: 50px;
+    width: 99px;
+    background-color: #fff8dbe0;
+    color:#3a4442;
+    border: 3px #975433 solid;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    
+}

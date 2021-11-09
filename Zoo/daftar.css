@@ -1,0 +1,38 @@
+body{
+    background-image: url(Harimau.jpg);
+    background-size: cover;
+    font-family:'Garamond',sans-serif ;
+}
+.g{
+    text-align: center;
+    font-size: 40px; 
+}
+.h{
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Garamond',sans-serif;
+    color: black;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+    width:500px;
+    margin-left: 400px;
+}
+#Submit{
+    border-radius: 50px;
+    color: white;
+    background-color:#445055 ;
+    transition: 0,3s;
+}
+#Submit:hover{
+    background-color: white;
+    color: black;
+}
+#ref{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+#ref:hover{
+    color: aqua;
+}
